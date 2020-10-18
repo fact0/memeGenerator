@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="app.css" />
+		<title>Meme Generator</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Meme Generator</h1>
+			<form action="" class="meme-form">
+                <label for="url-input">Image URL:</label>
+                <input type="text" class="url-input" placeholder="Type your image address..." id="url-input">
+                <label for="top-input">Top Text:</label>
+                <input type="text" class="top-input" placeholder="Type your top text..." id="top-input">
+                <label for="bottom-input">Image URL:</label>
+                <input type="text" class="bottom-input" placeholder="Type your bottom text..." id="bottom-input">
+                <!-- <div id="meme-checkbox">
+                <label>
+                    <input type="checkbox" value="1" class="meme-check"><span>Deep-Fry Your Meme</span>
+                </label>
+                </div> -->
+                <input type="submit" class="submit-button" value="Generate Meme"></input>
+            </form>
+            <hr>
+            <div class='imgBox'></div>
+		</div>
+		<script src="app.js"></script>
+	</body>
+</html>
